@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan *858#</title>
+    <link rel="stylesheet" href="impal.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<div class="ussd-container">
+    <div class="ussd-screen">
+        <h3>Selamat Datang di Layanan *858#</h3>
+        <p>Mau iphone 15Plus dr saskia chadwick? hub *500*117#</p>
+        <ol class="menu-options">
+            <li>1. Transfer Pulsa</li>
+            <li>2. Minta pulsa</li>
+            <li>3. Auto TP</li>
+            <li>4. Delete auto TP</li>
+            <li>5. List auto TP</li>
+            <li>6. cek kupon undian TP</li>
+        </ol>
+        <input type="text" id="userInput" placeholder="Masukkan pilihan Anda">
+        <button onclick="processUserInput()">Kirim</button>
+    </div>
+    <div id="result-screen" class="result-screen"></div>
+</div>
+
+<script src="impal.py"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
